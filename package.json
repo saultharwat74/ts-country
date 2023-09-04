@@ -1,0 +1,25 @@
+{
+  "name": "ts-currency",
+  "version": "0.0.1",
+  "description": "",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build"
+  },
+  "keywords": [],
+  "author": "Muhammad Tharwat",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  }
+}
