@@ -12,7 +12,9 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
-    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "keywords": [],
   "author": "Muhammad Tharwat",
@@ -20,8 +22,28 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@types/node": "^20.5.9",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "vitest": "^0.34.3"
+  },
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "pnpm eslint",
+      "pnpm prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
