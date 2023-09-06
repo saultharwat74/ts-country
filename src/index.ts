@@ -1,3 +1,2 @@
-export const currency = () => {
-  console.log("getting currency");
-};
+export * from './data';
+export * from './types';
