@@ -1,4 +1,4 @@
-import { continents, currencies, languages, countryCode } from "./data";
+import { continents, currencies, languages, countryCode, countries } from "./data";
 
 export interface ICountry {
   capital: string;
@@ -21,3 +21,4 @@ export type TContinentCode = keyof typeof continents;
 export type TCountryCode = keyof typeof countryCode;
 export type TLanguageCode = keyof typeof languages;
 export type TCurrencyCode = keyof typeof currencies;
+export type TCountries = typeof countries;
