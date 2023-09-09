@@ -1,4 +1,4 @@
-import { ICountry, TCountryCode } from "../types";
+import { TCountryInfo } from "../types";
 
 export default {
   AD: {
@@ -2258,4 +2258,4 @@ export default {
     currency: ["USD", "ZAR", "BWP", "GBP", "AUD", "CNY", "INR", "JPY"],
     languages: ["en", "sn", "nd"],
   },
-} satisfies { [keyof in TCountryCode]: ICountry };
+} satisfies TCountryInfo;
