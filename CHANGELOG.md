@@ -1,5 +1,11 @@
 # ts-country
 
+## 0.0.5
+
+### Patch Changes
+
+- 9ad8c86: Added MIT License
+
 ## 0.0.4
 
 ### Patch Changes
