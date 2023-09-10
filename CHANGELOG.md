@@ -1,5 +1,11 @@
 # ts-country
 
+## 0.0.6 
+
+### Patch Changes 
+
+- Updated README and Added Unit Tests for `getCountry` and `getCurrency`
+
 ## 0.0.5
 
 ### Patch Changes
