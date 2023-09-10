@@ -1,5 +1,11 @@
 # ts-country
 
+## 0.0.7
+
+### Patch Changes
+
+- Added repository information to `package.json`.
+
 ## 0.0.6 
 
 ### Patch Changes 
