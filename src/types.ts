@@ -1,4 +1,10 @@
-import { continents, currencies, languages, countryCode, countries } from "./data";
+import {
+  continents,
+  currencies,
+  languages,
+  countryCode,
+  countries,
+} from "./data";
 import getCurrency from "./getCurrency";
 
 export interface ICountry {
@@ -43,3 +49,17 @@ export type TCountryInfoReturn = {
     currency: TCurrencyCodeReturnType<key>;
   };
 };
+
+export type LanguageMapping<T extends keyof typeof countries> = {
+  [K in (typeof countries)[T]["languages"][number]]: ILanguage;
+};
+
+export type LanguageCode<T extends keyof typeof countries> =
+  (typeof countries)[T]["languages"][number];
+
+export type CurrencyMapping<T extends keyof typeof countries> = {
+  [K in (typeof countries)[T]["currency"][number]]: K;
+};
+
+export type CurrencyCode<T extends keyof typeof countries> =
+  (typeof countries)[T]["currency"][number];

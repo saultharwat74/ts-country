@@ -1,6 +1,6 @@
 # ts-country
 
-ts-country is a TypeScript package that offers seamless access to comprehensive information about countries.
+`ts-country` is a TypeScript package that offers seamless access to comprehensive information about countries.
 
 
 # Installation
@@ -24,6 +24,13 @@ pnpm add ts-country
 ```
 
 # Usage
+
+| Function   | Description                                                           |
+|------------|-----------------------------------------------------------------------|
+| `getCountry`  | Retrieves detailed information about a specific country.                  |
+| `getCurrency` | Provides currency codes for a given country code.                          |
+| `getLanguage` | Retrieves detailed language information for a specific country code. |
+
 
 ### Using `getCountry`
 
@@ -52,7 +59,14 @@ import { getCurrency } from "ts-country";
 const { USD, USN, USS } = getCurrency("US");
 ```
 
-In the example above, `getCountry` allows you to retrieve detailed information about a specific country, while `getCurrency` provides currency codes for a given country code.
+### Using `getLanguage`
+
+```typescript
+import { getLanguage } from "ts-country";
+
+// Replace "US" with the desired country code
+const { en: { name, native } } = getLanguage("US");
+```
 
 
 # Contributing

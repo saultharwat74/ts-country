@@ -1,4 +1,5 @@
 import { countries } from "./data";
+import { CurrencyCode, CurrencyMapping } from "./types";
 
 // Create a cache object
 const cache: Record<string, object> = {};
@@ -10,12 +11,10 @@ const cache: Record<string, object> = {};
  */
 export default function getCurrency<T extends keyof typeof countries>(
   country_code: T
-): { [K in (typeof countries)[T]["currency"][number]]: K } {
+): CurrencyMapping<T> {
   // Check if the result is already in the cache
   if (cache[country_code]) {
-    return cache[country_code] as {
-      [K in (typeof countries)[T]["currency"][number]]: K;
-    };
+    return cache[country_code] as CurrencyMapping<T>;
   }
 
   // Retrieve country data from the 'countries' object
@@ -23,19 +22,15 @@ export default function getCurrency<T extends keyof typeof countries>(
   const currency = country.currency;
 
   // Initialize an empty object to hold currency codes
-  const currencyObject: {
-    [K in (typeof countries)[T]["currency"][number]]: K;
-  } = {} as any;
+  const currencyObject: CurrencyMapping<T> = {} as CurrencyMapping<T>;
 
   // Populate the 'currencyObject' with currency codes
   for (const code of currency) {
-    currencyObject[code as (typeof countries)[T]["currency"][number]] = code;
+    currencyObject[code as CurrencyCode<T>] = code;
   }
 
   // Store the result in the cache for future use
   cache[country_code] = currencyObject;
 
-  return currencyObject as {
-    [K in (typeof countries)[T]["currency"][number]]: K;
-  };
+  return currencyObject as CurrencyMapping<T>;
 }
