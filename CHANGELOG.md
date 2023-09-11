@@ -1,5 +1,11 @@
 # ts-country
 
+## 0.0.8
+
+### Patch Changes
+
+- Added `getLanguage` function to retrive language information
+
 ## 0.0.7
 
 ### Patch Changes
