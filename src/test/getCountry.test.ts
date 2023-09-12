@@ -7,6 +7,7 @@ import {
   TCountryInfoReturn,
   TCurrencyCodeReturnType,
 } from "../types";
+import getLanguage from "../getLanguage";
 
 test("getCountry: Retrieves country information", ({ expect }) => {
   // Call the getCountry function
@@ -17,11 +18,13 @@ test("getCountry: Retrieves country information", ({ expect }) => {
     Object.entries(countries).reduce((acc, [countryCode, country]) => {
       // Call the getCurrency function to obtain currency codes
       const currencyCodes = getCurrency(countryCode as TCountryCode);
-
+      // Call the getLanguage function to obtain language codes
+      const languages = getLanguage(countryCode as TCountryCode);
       // Create a new object with the country information and currency codes
       const updatedCountryInfo = {
         ...country,
         currency: currencyCodes as TCurrencyCodeReturnType<TCountryCode>,
+        languages,
       };
 
       // Add the updated country information to the accumulator object

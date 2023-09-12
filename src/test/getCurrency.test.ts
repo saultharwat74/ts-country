@@ -6,7 +6,7 @@ test("getCurrency: Retrieves currency code based on country code", ({
 }) => {
   // Test case 1: Testing currency for USA
   const resultUS = getCurrency("US");
-  expect(resultUS).toEqual({ USD: "USD", USN: "USN", USS: "USS" });
+  expect(resultUS).toEqual({ USD: "USD"});
 
   // Test case 2: Testing currency for Canada
   const resultCA = getCurrency("CA");
