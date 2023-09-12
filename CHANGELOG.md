@@ -1,5 +1,14 @@
 # ts-country
 
+## 0.0.9
+
+### Patch Changes
+
+🚀 Updated country data
+
+- Added emojis, timezone, gmtoffset, and geonameId properties in the countries data.
+- Fixed returned values of languages in the getCountry() function
+
 ## 0.0.8
 
 ### Patch Changes
