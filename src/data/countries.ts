@@ -3030,7 +3030,7 @@ export default {
     phone: [1],
     continent: "NA",
     capital: "Washington, D.C.",
-    currency: ["USD", "USN", "USS"],
+    currency: ["USD"],
     languages: ["en"],
     emoji: "🇺🇸",
     timezone: "America/New_York",
