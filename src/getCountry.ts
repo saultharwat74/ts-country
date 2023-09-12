@@ -1,5 +1,6 @@
 import { countries } from "./data";
 import getCurrency from "./getCurrency";
+import getLanguage from "./getLanguage";
 import {
   TCountryCode,
   TCountryInfoReturn,
@@ -21,10 +22,13 @@ export default function getCountry(): TCountryInfoReturn {
     const country = countries[countryCode as TCountryCode];
     // Get currency codes for the current country code
     const currencyCodes = getCurrency(countryCode as TCountryCode);
-
+    // Get laguages for the current country code
+    const languages = getLanguage(countryCode as TCountryCode);
+    
     countryInfo[countryCode as TCountryCode] = {
       ...country,
       currency: currencyCodes as TCurrencyCodeReturnType<TCountryCode>,
+      languages,
     };
   }
 
