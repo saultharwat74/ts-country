@@ -8,7 +8,7 @@ import {
   emojis,
   fipsCodes,
   isoNumericCodes,
-  countryCostlines,
+  countryCoastlines,
   governmentTypes,
   countryAreas,
   currencySymbols,
@@ -104,9 +104,9 @@ export interface ICountry<T extends TCountryCodes> {
   governmentType: TCountryGovernmentTypes<T>;
 
   /**
-   * The costline of the country.
+   * The coastline of the country.
    * */
-  costline: TCountryCostlines<T>;
+  coastline: TCountryCoastlines<T>;
 }
 
 export interface ILanguage {
@@ -152,10 +152,10 @@ export type TCurrencyCode = keyof typeof currencies;
 export type TCountries = typeof countries;
 
 /**
- * Represents a code identifying a costline.
+ * Represents a code identifying a coastline.
  */
-export type TCountryCostlines<T extends keyof typeof countryCostlines> =
-  (typeof countryCostlines)[T];
+export type TCountryCoastlines<T extends keyof typeof countryCoastlines> =
+  (typeof countryCoastlines)[T];
 
 /**
  * Represents a code identifying a government type.

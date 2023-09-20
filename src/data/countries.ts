@@ -18,7 +18,7 @@ export default {
     currencySymbol: "€",
     area: 468,
     governmentType: "Parliamentary democracy",
-    costline: 0,
+    coastline: 0,
   },
   AE: {
     name: "United Arab Emirates",
@@ -37,7 +37,7 @@ export default {
     currencySymbol: "د.إ",
     area: 83600,
     governmentType: "Federal Absolute Monarchy",
-    costline: 0,
+    coastline: 0,
   },
   AF: {
     name: "Afghanistan",
@@ -52,7 +52,7 @@ export default {
     gmtoffset: "UTC+4:30",
     geonameId: 1149361,
     area: 652230,
-    costline: 0,
+    coastline: 0,
     currencySymbol: "؋",
     governmentType: "Islamic Republic",
     isoNumeric: "004",
@@ -71,7 +71,7 @@ export default {
     gmtoffset: "UTC-4:00",
     geonameId: 3576396,
     area: 442,
-    costline: 0,
+    coastline: 0,
     currencySymbol: "$",
     governmentType: "Constitutional monarchy and parliamentary democracy",
     isoNumeric: "028",
@@ -90,7 +90,7 @@ export default {
     gmtoffset: "UTC-4:00",
     geonameId: 3573511,
     area: 91,
-    costline: 61,
+    coastline: 61,
     currencySymbol: "$",
     governmentType: "Parliamentary democracy",
     isoNumeric: "660",
@@ -113,7 +113,7 @@ export default {
     currencySymbol: "L",
     area: 28748,
     governmentType: "Parliamentary democracy",
-    costline: 362,
+    coastline: 362,
   },
   AM: {
     name: "Armenia",
@@ -132,7 +132,7 @@ export default {
     currencySymbol: "֏",
     area: 29800,
     governmentType: "Semi-presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   AO: {
     name: "Angola",
@@ -151,7 +151,7 @@ export default {
     currencySymbol: "Kz",
     area: 1246700,
     governmentType: "Republic",
-    costline: 1.6,
+    coastline: 1.6,
   },
   AQ: {
     name: "Antarctica",
@@ -170,7 +170,7 @@ export default {
     currencySymbol: null,
     area: 14000000,
     governmentType: "Treaty party to the Antarctic Treaty System",
-    costline: 17.968,
+    coastline: 17.968,
   },
   AR: {
     name: "Argentina",
@@ -189,7 +189,7 @@ export default {
     currencySymbol: "$",
     area: 2780400,
     governmentType: "Federal republic",
-    costline: 4.989,
+    coastline: 4.989,
   },
   AS: {
     name: "American Samoa",
@@ -208,7 +208,7 @@ export default {
     currencySymbol: "$",
     area: 199,
     governmentType: "Unincorporated and unorganized territory of the US",
-    costline: 116,
+    coastline: 116,
   },
   AT: {
     name: "Austria",
@@ -227,7 +227,7 @@ export default {
     currencySymbol: "€",
     area: 83871,
     governmentType: "Federal republic",
-    costline: 0,
+    coastline: 0,
   },
   AU: {
     name: "Australia",
@@ -246,7 +246,7 @@ export default {
     currencySymbol: "$",
     area: 7741220,
     governmentType: "Federal parliamentary democracy and a Commonwealth realm",
-    costline: 25.76,
+    coastline: 25.76,
   },
   AW: {
     name: "Aruba",
@@ -265,7 +265,7 @@ export default {
     currencySymbol: "ƒ",
     area: 180,
     governmentType: "Parliamentary democracy",
-    costline: 68.5,
+    coastline: 68.5,
   },
   AX: {
     name: "Aland",
@@ -284,7 +284,7 @@ export default {
     currencySymbol: "€",
     area: 1580,
     governmentType: "Part of the Kingdom of Denmark",
-    costline: 0,
+    coastline: 0,
   },
   AZ: {
     name: "Azerbaijan",
@@ -304,7 +304,7 @@ export default {
     currencySymbol: "₼",
     area: 86600,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   BA: {
     name: "Bosnia and Herzegovina",
@@ -323,7 +323,7 @@ export default {
     currencySymbol: "KM",
     area: 51209,
     governmentType: "Parliamentary republic",
-    costline: 20,
+    coastline: 20,
   },
   BB: {
     name: "Barbados",
@@ -342,7 +342,7 @@ export default {
     currencySymbol: "$",
     area: 430,
     governmentType: "Parliamentary democracy",
-    costline: 97,
+    coastline: 97,
   },
   BD: {
     name: "Bangladesh",
@@ -361,7 +361,7 @@ export default {
     currencySymbol: "৳",
     area: 147570,
     governmentType: "Parliamentary democracy",
-    costline: 580,
+    coastline: 580,
   },
   BE: {
     name: "Belgium",
@@ -381,7 +381,7 @@ export default {
     area: 30528,
     governmentType:
       "Federal parliamentary democracy under a constitutional monarchy",
-    costline: 66.5,
+    coastline: 66.5,
   },
   BF: {
     name: "Burkina Faso",
@@ -400,7 +400,7 @@ export default {
     currencySymbol: "CFA",
     area: 274200,
     governmentType: "Parliamentary republic",
-    costline: 0,
+    coastline: 0,
   },
   BG: {
     name: "Bulgaria",
@@ -419,7 +419,7 @@ export default {
     currencySymbol: "лв",
     area: 110879,
     governmentType: "Parliamentary republic",
-    costline: 354,
+    coastline: 354,
   },
   BH: {
     name: "Bahrain",
@@ -438,7 +438,7 @@ export default {
     currencySymbol: "د.ب",
     area: 765,
     governmentType: "Constitutional monarchy",
-    costline: 161,
+    coastline: 161,
   },
   BI: {
     name: "Burundi",
@@ -457,7 +457,7 @@ export default {
     currencySymbol: "FBu",
     area: 27830,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   BJ: {
     name: "Benin",
@@ -476,7 +476,7 @@ export default {
     currencySymbol: "CFA",
     area: 112622,
     governmentType: "Presidential republic",
-    costline: 121,
+    coastline: 121,
   },
   BL: {
     name: "Saint Barthelemy",
@@ -495,7 +495,7 @@ export default {
     currencySymbol: "€",
     area: 21,
     governmentType: "Overseas collectivity of France",
-    costline: 0,
+    coastline: 0,
   },
   BM: {
     name: "Bermuda",
@@ -514,7 +514,7 @@ export default {
     currencySymbol: "$",
     area: 54,
     governmentType: "Parliamentary democracy",
-    costline: 103,
+    coastline: 103,
   },
   BN: {
     name: "Brunei",
@@ -533,7 +533,7 @@ export default {
     currencySymbol: "$",
     area: 5765,
     governmentType: "Absolute monarchy",
-    costline: 161,
+    coastline: 161,
   },
   BO: {
     name: "Bolivia",
@@ -552,7 +552,7 @@ export default {
     currencySymbol: "Bs.",
     area: 1098580,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   BQ: {
     name: "Bonaire",
@@ -571,7 +571,7 @@ export default {
     currencySymbol: "$",
     area: 294,
     governmentType: "Constituent country of the Kingdom of the Netherlands",
-    costline: 0,
+    coastline: 0,
   },
   BR: {
     name: "Brazil",
@@ -590,7 +590,7 @@ export default {
     currencySymbol: "R$",
     area: 8515767,
     governmentType: "Federal republic",
-    costline: 4.989,
+    coastline: 4.989,
   },
   BS: {
     name: "Bahamas",
@@ -610,7 +610,7 @@ export default {
     area: 13878,
     governmentType:
       "Constitutional parliamentary democracy and a Commonwealth realm",
-    costline: null,
+    coastline: null,
   },
   BT: {
     name: "Bhutan",
@@ -629,7 +629,7 @@ export default {
     currencySymbol: "Nu.",
     area: 38394,
     governmentType: "Constitutional monarchy",
-    costline: 0,
+    coastline: 0,
   },
   BV: {
     name: "Bouvet Island",
@@ -648,7 +648,7 @@ export default {
     currencySymbol: "kr",
     area: 49,
     governmentType: "Uninhabited",
-    costline: 0,
+    coastline: 0,
   },
   BW: {
     name: "Botswana",
@@ -667,7 +667,7 @@ export default {
     currencySymbol: "P",
     area: 581730,
     governmentType: "Parliamentary republic",
-    costline: 0,
+    coastline: 0,
   },
   BY: {
     name: "Belarus",
@@ -687,7 +687,7 @@ export default {
     area: 207600,
     governmentType:
       "Presidential republic in a framework of a semi-presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   BZ: {
     name: "Belize",
@@ -706,7 +706,7 @@ export default {
     currencySymbol: "$",
     area: 22966,
     governmentType: "Parliamentary democracy",
-    costline: 386,
+    coastline: 386,
   },
   CA: {
     name: "Canada",
@@ -726,7 +726,7 @@ export default {
     area: 9976140,
     governmentType:
       "Federal parliamentary democracy and a constitutional monarchy",
-    costline: 202.08,
+    coastline: 202.08,
   },
   CC: {
     name: "Cocos (Keeling) Islands",
@@ -745,7 +745,7 @@ export default {
     currencySymbol: "$",
     area: 14,
     governmentType: "Territory of Australia",
-    costline: 138.9,
+    coastline: 138.9,
   },
   CD: {
     name: "Democratic Republic of the Congo",
@@ -764,7 +764,7 @@ export default {
     currencySymbol: "FC",
     area: 2344858,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   CF: {
     name: "Central African Republic",
@@ -783,7 +783,7 @@ export default {
     currencySymbol: "CFA",
     area: 622984,
     governmentType: "Semi-presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   CG: {
     name: "Republic of the Congo",
@@ -802,7 +802,7 @@ export default {
     currencySymbol: "FC",
     area: 342000,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   CH: {
     name: "Switzerland",
@@ -821,7 +821,7 @@ export default {
     currencySymbol: "Fr",
     area: 41284,
     governmentType: "Federal republic",
-    costline: 0,
+    coastline: 0,
   },
   CI: {
     name: "Ivory Coast",
@@ -840,7 +840,7 @@ export default {
     currencySymbol: "CFA",
     area: 322463,
     governmentType: "Presidential republic",
-    costline: 515,
+    coastline: 515,
   },
   CK: {
     name: "Cook Islands",
@@ -859,7 +859,7 @@ export default {
     currencySymbol: "$",
     area: 236,
     governmentType: "Parliamentary democracy",
-    costline: 120,
+    coastline: 120,
   },
   CL: {
     name: "Chile",
@@ -878,7 +878,7 @@ export default {
     currencySymbol: "$",
     area: 756950,
     governmentType: "Presidential republic",
-    costline: 6.435,
+    coastline: 6.435,
   },
   CM: {
     name: "Cameroon",
@@ -897,7 +897,7 @@ export default {
     currencySymbol: "CFA",
     area: 475442,
     governmentType: "Presidential republic",
-    costline: 402,
+    coastline: 402,
   },
   CN: {
     name: "China",
@@ -916,7 +916,7 @@ export default {
     currencySymbol: "¥",
     area: 9596960,
     governmentType: "Single-party socialist republic",
-    costline: 14.5,
+    coastline: 14.5,
   },
   CO: {
     name: "Colombia",
@@ -935,7 +935,7 @@ export default {
     currencySymbol: "$",
     area: 1138910,
     governmentType: "Presidential republic",
-    costline: 3.208,
+    coastline: 3.208,
   },
   CR: {
     name: "Costa Rica",
@@ -954,7 +954,7 @@ export default {
     currencySymbol: "₡",
     area: 51100,
     governmentType: "Presidential republic",
-    costline: 1.29,
+    coastline: 1.29,
   },
   CU: {
     name: "Cuba",
@@ -973,7 +973,7 @@ export default {
     currencySymbol: "$",
     area: 110860,
     governmentType: "Socialist republic",
-    costline: 3.735,
+    coastline: 3.735,
   },
   CV: {
     name: "Cape Verde",
@@ -992,7 +992,7 @@ export default {
     currencySymbol: "$",
     area: 4033,
     governmentType: "Semi-presidential republic",
-    costline: 965,
+    coastline: 965,
   },
   CW: {
     name: "Curacao",
@@ -1011,7 +1011,7 @@ export default {
     currencySymbol: "ƒ",
     area: 444,
     governmentType: "Parliamentary democracy",
-    costline: 0,
+    coastline: 0,
   },
   CX: {
     name: "Christmas Island",
@@ -1030,7 +1030,7 @@ export default {
     currencySymbol: "$",
     area: 135,
     governmentType: "Territory of Australia",
-    costline: 0,
+    coastline: 0,
   },
   CY: {
     name: "Cyprus",
@@ -1049,7 +1049,7 @@ export default {
     currencySymbol: "€",
     area: 9251,
     governmentType: "Presidential republic",
-    costline: 648,
+    coastline: 648,
   },
   CZ: {
     name: "Czech Republic",
@@ -1068,7 +1068,7 @@ export default {
     currencySymbol: "Kč",
     area: 78865,
     governmentType: "Parliamentary republic",
-    costline: 0,
+    coastline: 0,
   },
   DE: {
     name: "Germany",
@@ -1087,7 +1087,7 @@ export default {
     currencySymbol: "€",
     area: 357022,
     governmentType: "Federal parliamentary republic",
-    costline: 2.389,
+    coastline: 2.389,
   },
   DJ: {
     name: "Djibouti",
@@ -1106,7 +1106,7 @@ export default {
     currencySymbol: "Fdj",
     area: 23200,
     governmentType: "Republic",
-    costline: 314,
+    coastline: 314,
   },
   DK: {
     name: "Denmark",
@@ -1126,7 +1126,7 @@ export default {
     currencySymbol: "kr",
     area: 43094,
     governmentType: "Parliamentary democracy",
-    costline: 7.314,
+    coastline: 7.314,
   },
   DM: {
     name: "Dominica",
@@ -1145,7 +1145,7 @@ export default {
     currencySymbol: "$",
     area: 751,
     governmentType: "Parliamentary democracy",
-    costline: 148,
+    coastline: 148,
   },
   DO: {
     name: "Dominican Republic",
@@ -1164,7 +1164,7 @@ export default {
     currencySymbol: "RD$",
     area: 48671,
     governmentType: "Democratic republic",
-    costline: 1.288,
+    coastline: 1.288,
   },
   DZ: {
     name: "Algeria",
@@ -1183,7 +1183,7 @@ export default {
     currencySymbol: "د.ج",
     area: 2381741,
     governmentType: "Semi-presidential republic",
-    costline: 998,
+    coastline: 998,
   },
   EC: {
     name: "Ecuador",
@@ -1202,7 +1202,7 @@ export default {
     currencySymbol: "$",
     area: 283561,
     governmentType: "Presidential republic",
-    costline: 2.237,
+    coastline: 2.237,
   },
   EE: {
     name: "Estonia",
@@ -1221,7 +1221,7 @@ export default {
     currencySymbol: "€",
     area: 45227,
     governmentType: "Parliamentary republic",
-    costline: 3.794,
+    coastline: 3.794,
   },
   EG: {
     name: "Egypt",
@@ -1241,7 +1241,7 @@ export default {
     currencySymbol: "E£",
     area: 1001450,
     governmentType: "Republic",
-    costline: 2.45,
+    coastline: 2.45,
   },
   EH: {
     name: "Western Sahara",
@@ -1260,7 +1260,7 @@ export default {
     currencySymbol: "د.م.",
     area: 266000,
     governmentType: "Non-Self-Governing Territory of Morocco",
-    costline: 1.11,
+    coastline: 1.11,
   },
   ER: {
     name: "Eritrea",
@@ -1279,7 +1279,7 @@ export default {
     currencySymbol: "Nfk",
     area: 117600,
     governmentType: "Single-party presidential republic",
-    costline: 2.234,
+    coastline: 2.234,
   },
   ES: {
     name: "Spain",
@@ -1298,7 +1298,7 @@ export default {
     currencySymbol: "€",
     area: 505990,
     governmentType: "Parliamentary democracy",
-    costline: 4.964,
+    coastline: 4.964,
   },
   ET: {
     name: "Ethiopia",
@@ -1317,7 +1317,7 @@ export default {
     currencySymbol: "Br",
     area: 1104300,
     governmentType: "Federal republic",
-    costline: 0,
+    coastline: 0,
   },
   FI: {
     name: "Finland",
@@ -1336,7 +1336,7 @@ export default {
     currencySymbol: "€",
     area: 338424,
     governmentType: "Parliamentary republic",
-    costline: 1.25,
+    coastline: 1.25,
   },
   FJ: {
     name: "Fiji",
@@ -1355,7 +1355,7 @@ export default {
     currencySymbol: "$",
     area: 18274,
     governmentType: "Parliamentary republic",
-    costline: null,
+    coastline: null,
   },
   FK: {
     name: "Falkland Islands",
@@ -1374,7 +1374,7 @@ export default {
     currencySymbol: "£",
     area: 12173,
     governmentType: "Constitutional monarchy",
-    costline: 1.288,
+    coastline: 1.288,
   },
   FM: {
     name: "Micronesia",
@@ -1393,7 +1393,7 @@ export default {
     currencySymbol: "$",
     area: 702,
     governmentType: "Constitutional federal republic",
-    costline: 6.112,
+    coastline: 6.112,
   },
   FO: {
     name: "Faroe Islands",
@@ -1412,7 +1412,7 @@ export default {
     currencySymbol: "kr",
     area: 1393,
     governmentType: "Constituent country of the Kingdom of Denmark",
-    costline: 1.117,
+    coastline: 1.117,
   },
   FR: {
     name: "France",
@@ -1431,7 +1431,7 @@ export default {
     currencySymbol: "€",
     area: 551695,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   GA: {
     name: "Gabon",
@@ -1450,7 +1450,7 @@ export default {
     currencySymbol: "CFA",
     area: 267667,
     governmentType: "Presidential republic",
-    costline: 885,
+    coastline: 885,
   },
   GB: {
     name: "United Kingdom",
@@ -1469,7 +1469,7 @@ export default {
     currencySymbol: "£",
     area: 243610,
     governmentType: "Parliamentary democracy and a constitutional monarchy",
-    costline: 12.429,
+    coastline: 12.429,
   },
   GD: {
     name: "Grenada",
@@ -1488,7 +1488,7 @@ export default {
     currencySymbol: "$",
     area: 344,
     governmentType: "Parliamentary democracy",
-    costline: 121,
+    coastline: 121,
   },
   GE: {
     name: "Georgia",
@@ -1508,7 +1508,7 @@ export default {
     currencySymbol: "₾",
     area: 69700,
     governmentType: "Semi-presidential republic",
-    costline: 310,
+    coastline: 310,
   },
   GF: {
     name: "French Guiana",
@@ -1527,7 +1527,7 @@ export default {
     currencySymbol: "€",
     area: 83534,
     governmentType: "Overseas department of France",
-    costline: 763,
+    coastline: 763,
   },
   GG: {
     name: "Guernsey",
@@ -1546,7 +1546,7 @@ export default {
     currencySymbol: "£",
     area: 78,
     governmentType: "Crown dependency",
-    costline: null,
+    coastline: null,
   },
   GH: {
     name: "Ghana",
@@ -1565,7 +1565,7 @@ export default {
     currencySymbol: "₵",
     area: 238533,
     governmentType: "Presidential republic",
-    costline: 539,
+    coastline: 539,
   },
   GI: {
     name: "Gibraltar",
@@ -1584,7 +1584,7 @@ export default {
     currencySymbol: "£",
     area: 6,
     governmentType: "Parliamentary democracy",
-    costline: 12,
+    coastline: 12,
   },
   GL: {
     name: "Greenland",
@@ -1603,7 +1603,7 @@ export default {
     currencySymbol: "kr",
     area: 2166086,
     governmentType: "Constituent country of the Kingdom of Denmark",
-    costline: 44.087,
+    coastline: 44.087,
   },
   GM: {
     name: "Gambia",
@@ -1622,7 +1622,7 @@ export default {
     currencySymbol: "D",
     area: 11295,
     governmentType: "Republic",
-    costline: 80,
+    coastline: 80,
   },
   GN: {
     name: "Guinea",
@@ -1641,7 +1641,7 @@ export default {
     currencySymbol: "FG",
     area: 245857,
     governmentType: "Republic",
-    costline: 320,
+    coastline: 320,
   },
   GP: {
     name: "Guadeloupe",
@@ -1660,7 +1660,7 @@ export default {
     currencySymbol: "€",
     area: 1628,
     governmentType: "Overseas department of France",
-    costline: 581,
+    coastline: 581,
   },
   GQ: {
     name: "Equatorial Guinea",
@@ -1679,7 +1679,7 @@ export default {
     currencySymbol: "FCFA",
     area: 28051,
     governmentType: "Presidential republic",
-    costline: 296,
+    coastline: 296,
   },
   GR: {
     name: "Greece",
@@ -1698,7 +1698,7 @@ export default {
     currencySymbol: "€",
     area: 131957,
     governmentType: "Parliamentary republic",
-    costline: 13.676,
+    coastline: 13.676,
   },
   GS: {
     name: "South Georgia and the South Sandwich Islands",
@@ -1717,7 +1717,7 @@ export default {
     currencySymbol: "£",
     area: 3903,
     governmentType: "Overseas territory of the UK",
-    costline: 0,
+    coastline: 0,
   },
   GT: {
     name: "Guatemala",
@@ -1736,7 +1736,7 @@ export default {
     currencySymbol: "Q",
     area: 108889,
     governmentType: "Presidential republic",
-    costline: 400,
+    coastline: 400,
   },
   GU: {
     name: "Guam",
@@ -1755,7 +1755,7 @@ export default {
     currencySymbol: "$",
     area: 549,
     governmentType: "Unincorporated and organized territory of the US",
-    costline: 125.5,
+    coastline: 125.5,
   },
   GW: {
     name: "Guinea-Bissau",
@@ -1774,7 +1774,7 @@ export default {
     currencySymbol: "CFA",
     area: 36125,
     governmentType: "Semi-presidential republic",
-    costline: 350,
+    coastline: 350,
   },
   GY: {
     name: "Guyana",
@@ -1793,7 +1793,7 @@ export default {
     currencySymbol: "$",
     area: 214969,
     governmentType: "Republic",
-    costline: 459,
+    coastline: 459,
   },
   HK: {
     name: "Hong Kong",
@@ -1812,7 +1812,7 @@ export default {
     currencySymbol: "$",
     area: 1104,
     governmentType: "Special administrative region of China",
-    costline: 733,
+    coastline: 733,
   },
   HM: {
     name: "Heard Island and McDonald Islands",
@@ -1831,7 +1831,7 @@ export default {
     currencySymbol: "$",
     area: 412,
     governmentType: "Territory of Australia",
-    costline: 101.9,
+    coastline: 101.9,
   },
   HN: {
     name: "Honduras",
@@ -1850,7 +1850,7 @@ export default {
     currencySymbol: "L",
     area: 112492,
     governmentType: "Presidential republic",
-    costline: 832,
+    coastline: 832,
   },
   HR: {
     name: "Croatia",
@@ -1869,7 +1869,7 @@ export default {
     currencySymbol: "kn",
     area: 56542,
     governmentType: "Parliamentary republic",
-    costline: 6.268,
+    coastline: 6.268,
   },
   HT: {
     name: "Haiti",
@@ -1888,7 +1888,7 @@ export default {
     currencySymbol: "G",
     area: 27750,
     governmentType: "Semi-presidential republic",
-    costline: 1.771,
+    coastline: 1.771,
   },
   HU: {
     name: "Hungary",
@@ -1907,7 +1907,7 @@ export default {
     currencySymbol: "Ft",
     area: 93028,
     governmentType: "Parliamentary republic",
-    costline: 0,
+    coastline: 0,
   },
   ID: {
     name: "Indonesia",
@@ -1926,7 +1926,7 @@ export default {
     currencySymbol: "Rp",
     area: 1904569,
     governmentType: "Presidential republic",
-    costline: 54.716,
+    coastline: 54.716,
   },
   IE: {
     name: "Ireland",
@@ -1945,7 +1945,7 @@ export default {
     currencySymbol: "€",
     area: 70273,
     governmentType: "Parliamentary democracy",
-    costline: 1.448,
+    coastline: 1.448,
   },
   IL: {
     name: "Israel",
@@ -1964,7 +1964,7 @@ export default {
     currencySymbol: "₪",
     area: 20770,
     governmentType: "Parliamentary democracy",
-    costline: 273,
+    coastline: 273,
   },
   IM: {
     name: "Isle of Man",
@@ -1983,7 +1983,7 @@ export default {
     currencySymbol: "£",
     area: 572,
     governmentType: "Crown dependency",
-    costline: null,
+    coastline: null,
   },
   IN: {
     name: "India",
@@ -2002,7 +2002,7 @@ export default {
     currencySymbol: "₹",
     area: 3287263,
     governmentType: "Federal parliamentary democratic republic",
-    costline: 7,
+    coastline: 7,
   },
   IO: {
     name: "British Indian Ocean Territory",
@@ -2021,7 +2021,7 @@ export default {
     currencySymbol: "£",
     area: 60,
     governmentType: "British Overseas Territory",
-    costline: 698,
+    coastline: 698,
   },
   IQ: {
     name: "Iraq",
@@ -2040,7 +2040,7 @@ export default {
     currencySymbol: "ع.د",
     area: 438317,
     governmentType: "Federal parliamentary republic",
-    costline: 58,
+    coastline: 58,
   },
   IR: {
     name: "Iran",
@@ -2059,7 +2059,7 @@ export default {
     currencySymbol: "﷼",
     area: 1648195,
     governmentType: "Theocratic republic",
-    costline: 3.294,
+    coastline: 3.294,
   },
   IS: {
     name: "Iceland",
@@ -2078,7 +2078,7 @@ export default {
     currencySymbol: "kr",
     area: 103000,
     governmentType: "Parliamentary republic",
-    costline: 4.97,
+    coastline: 4.97,
   },
   IT: {
     name: "Italy",
@@ -2097,7 +2097,7 @@ export default {
     currencySymbol: "€",
     area: 301340,
     governmentType: "Parliamentary republic",
-    costline: 7.6,
+    coastline: 7.6,
   },
   JE: {
     name: "Jersey",
@@ -2116,7 +2116,7 @@ export default {
     currencySymbol: "£",
     area: 116,
     governmentType: "Crown dependency",
-    costline: null,
+    coastline: null,
   },
   JM: {
     name: "Jamaica",
@@ -2135,7 +2135,7 @@ export default {
     currencySymbol: "$",
     area: 10991,
     governmentType: "Parliamentary democracy",
-    costline: 1.022,
+    coastline: 1.022,
   },
   JO: {
     name: "Jordan",
@@ -2154,7 +2154,7 @@ export default {
     currencySymbol: "د.ا",
     area: 89342,
     governmentType: "Constitutional monarchy",
-    costline: 26,
+    coastline: 26,
   },
   JP: {
     name: "Japan",
@@ -2173,7 +2173,7 @@ export default {
     currencySymbol: "¥",
     area: 377975,
     governmentType: "Parliamentary constitutional monarchy",
-    costline: 29.751,
+    coastline: 29.751,
   },
   KE: {
     name: "Kenya",
@@ -2192,7 +2192,7 @@ export default {
     currencySymbol: "KSh",
     area: 580367,
     governmentType: "Presidential republic",
-    costline: 536,
+    coastline: 536,
   },
   KG: {
     name: "Kyrgyzstan",
@@ -2211,7 +2211,7 @@ export default {
     currencySymbol: "с",
     area: 199951,
     governmentType: "Parliamentary republic",
-    costline: 0,
+    coastline: 0,
   },
   KH: {
     name: "Cambodia",
@@ -2230,7 +2230,7 @@ export default {
     currencySymbol: "៛",
     area: 181035,
     governmentType: "Constitutional monarchy",
-    costline: 443,
+    coastline: 443,
   },
   KI: {
     name: "Kiribati",
@@ -2249,7 +2249,7 @@ export default {
     currencySymbol: "$",
     area: 811,
     governmentType: "Presidential republic",
-    costline: 1.143,
+    coastline: 1.143,
   },
   KM: {
     name: "Comoros",
@@ -2268,7 +2268,7 @@ export default {
     currencySymbol: "CF",
     area: 1862,
     governmentType: "Federal Islamic republic",
-    costline: 340,
+    coastline: 340,
   },
   KN: {
     name: "Saint Kitts and Nevis",
@@ -2287,7 +2287,7 @@ export default {
     currencySymbol: "$",
     area: 261,
     governmentType: "Parliamentary democracy",
-    costline: 135,
+    coastline: 135,
   },
   KP: {
     name: "North Korea",
@@ -2306,7 +2306,7 @@ export default {
     currencySymbol: "₩",
     area: 120540,
     governmentType: "Single-party state",
-    costline: null,
+    coastline: null,
   },
   KR: {
     name: "South Korea",
@@ -2325,7 +2325,7 @@ export default {
     currencySymbol: "₩",
     area: 99720,
     governmentType: "Presidential republic",
-    costline: null,
+    coastline: null,
   },
   KW: {
     name: "Kuwait",
@@ -2344,7 +2344,7 @@ export default {
     currencySymbol: "د.ك",
     area: 17818,
     governmentType: "Constitutional monarchy",
-    costline: 499,
+    coastline: 499,
   },
   KY: {
     name: "Cayman Islands",
@@ -2363,7 +2363,7 @@ export default {
     currencySymbol: "$",
     area: 264,
     governmentType: "Parliamentary democracy",
-    costline: 160,
+    coastline: 160,
   },
   KZ: {
     name: "Kazakhstan",
@@ -2383,7 +2383,7 @@ export default {
     currencySymbol: "₸",
     area: 2724900,
     governmentType: "Republic",
-    costline: null,
+    coastline: null,
   },
   LA: {
     name: "Laos",
@@ -2402,7 +2402,7 @@ export default {
     currencySymbol: "₭",
     area: 236800,
     governmentType: "Single-party socialist republic",
-    costline: 0,
+    coastline: 0,
   },
   LB: {
     name: "Lebanon",
@@ -2421,7 +2421,7 @@ export default {
     currencySymbol: "ل.ل",
     area: 10400,
     governmentType: "Parliamentary democracy",
-    costline: 225,
+    coastline: 225,
   },
   LC: {
     name: "Saint Lucia",
@@ -2440,7 +2440,7 @@ export default {
     currencySymbol: "$",
     area: 616,
     governmentType: "Parliamentary democracy",
-    costline: 158,
+    coastline: 158,
   },
   LI: {
     name: "Liechtenstein",
@@ -2459,7 +2459,7 @@ export default {
     currencySymbol: "Fr",
     area: 160,
     governmentType: "Constitutional monarchy",
-    costline: 0,
+    coastline: 0,
   },
   LK: {
     name: "Sri Lanka",
@@ -2478,7 +2478,7 @@ export default {
     currencySymbol: "රු",
     area: 65610,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   LR: {
     name: "Liberia",
@@ -2497,7 +2497,7 @@ export default {
     currencySymbol: "$",
     area: 111369,
     governmentType: "Presidential republic",
-    costline: 579,
+    coastline: 579,
   },
   LS: {
     name: "Lesotho",
@@ -2516,7 +2516,7 @@ export default {
     currencySymbol: "L",
     area: 30355,
     governmentType: "Parliamentary democracy",
-    costline: 0,
+    coastline: 0,
   },
   LT: {
     name: "Lithuania",
@@ -2535,7 +2535,7 @@ export default {
     currencySymbol: "€",
     area: 65300,
     governmentType: "Parliamentary republic",
-    costline: 90,
+    coastline: 90,
   },
   LU: {
     name: "Luxembourg",
@@ -2554,7 +2554,7 @@ export default {
     currencySymbol: "€",
     area: 2586,
     governmentType: "Parliamentary democracy",
-    costline: 0,
+    coastline: 0,
   },
   LV: {
     name: "Latvia",
@@ -2573,7 +2573,7 @@ export default {
     currencySymbol: "€",
     area: 64589,
     governmentType: "Parliamentary republic",
-    costline: 498,
+    coastline: 498,
   },
   LY: {
     name: "Libya",
@@ -2592,7 +2592,7 @@ export default {
     currencySymbol: "ل.د",
     area: 177006,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   MA: {
     name: "Morocco",
@@ -2611,7 +2611,7 @@ export default {
     currencySymbol: "د.م.",
     area: 446550,
     governmentType: "Constitutional monarchy",
-    costline: 1.835,
+    coastline: 1.835,
   },
   MC: {
     name: "Monaco",
@@ -2630,7 +2630,7 @@ export default {
     currencySymbol: "€",
     area: 2,
     governmentType: "Constitutional monarchy",
-    costline: 4.1,
+    coastline: 4.1,
   },
   MD: {
     name: "Moldova",
@@ -2649,7 +2649,7 @@ export default {
     currencySymbol: "L",
     area: 33843,
     governmentType: "Republic",
-    costline: 0,
+    coastline: 0,
   },
   ME: {
     name: "Montenegro",
@@ -2668,7 +2668,7 @@ export default {
     currencySymbol: "€",
     area: 13812,
     governmentType: "Parliamentary republic",
-    costline: null,
+    coastline: null,
   },
   MF: {
     name: "Saint Martin",
@@ -2687,7 +2687,7 @@ export default {
     currencySymbol: "€",
     area: 53,
     governmentType: "Overseas collectivity of France",
-    costline: 0,
+    coastline: 0,
   },
   MG: {
     name: "Madagascar",
@@ -2706,7 +2706,7 @@ export default {
     currencySymbol: "Ar",
     area: 587041,
     governmentType: "Semi-presidential republic",
-    costline: 4.828,
+    coastline: 4.828,
   },
   MH: {
     name: "Marshall Islands",
@@ -2725,7 +2725,7 @@ export default {
     currencySymbol: "$",
     area: 181,
     governmentType: "Constitutional federal republic",
-    costline: 370.4,
+    coastline: 370.4,
   },
   MK: {
     name: "North Macedonia",
@@ -2744,7 +2744,7 @@ export default {
     currencySymbol: "ден",
     area: 25713,
     governmentType: "Parliamentary republic",
-    costline: null,
+    coastline: null,
   },
   ML: {
     name: "Mali",
@@ -2763,7 +2763,7 @@ export default {
     currencySymbol: "CFA",
     area: 1240192,
     governmentType: "Semi-presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   MM: {
     name: "Myanmar (Burma)",
@@ -2782,7 +2782,7 @@ export default {
     currencySymbol: "Ks",
     area: 676578,
     governmentType: "Presidential republic",
-    costline: null,
+    coastline: null,
   },
   MN: {
     name: "Mongolia",
@@ -2801,7 +2801,7 @@ export default {
     currencySymbol: "₮",
     area: 1564116,
     governmentType: "Semi-presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   MO: {
     name: "Macao",
@@ -2820,7 +2820,7 @@ export default {
     currencySymbol: "MOP$",
     area: 30,
     governmentType: "Special administrative region of China",
-    costline: null,
+    coastline: null,
   },
   MP: {
     name: "Northern Mariana Islands",
@@ -2839,7 +2839,7 @@ export default {
     currencySymbol: "$",
     area: 464,
     governmentType: "Unincorporated organized territory of the US",
-    costline: 1.482,
+    coastline: 1.482,
   },
   MQ: {
     name: "Martinique",
@@ -2858,7 +2858,7 @@ export default {
     currencySymbol: "€",
     area: 1128,
     governmentType: "Overseas department of France",
-    costline: 369,
+    coastline: 369,
   },
   MR: {
     name: "Mauritania",
@@ -2877,7 +2877,7 @@ export default {
     currencySymbol: "UM",
     area: 1030700,
     governmentType: "Military junta",
-    costline: 754,
+    coastline: 754,
   },
   MS: {
     name: "Montserrat",
@@ -2896,7 +2896,7 @@ export default {
     currencySymbol: "$",
     area: 102,
     governmentType: "Parliamentary democracy",
-    costline: 0,
+    coastline: 0,
   },
   MT: {
     name: "Malta",
@@ -2915,7 +2915,7 @@ export default {
     currencySymbol: "€",
     area: 316,
     governmentType: "Parliamentary republic",
-    costline: 252.81,
+    coastline: 252.81,
   },
   MU: {
     name: "Mauritius",
@@ -2934,7 +2934,7 @@ export default {
     currencySymbol: "₨",
     area: 2040,
     governmentType: "Parliamentary democracy",
-    costline: 177,
+    coastline: 177,
   },
   MV: {
     name: "Maldives",
@@ -2953,7 +2953,7 @@ export default {
     currencySymbol: "Rf",
     area: 300,
     governmentType: "Presidential republic",
-    costline: 644,
+    coastline: 644,
   },
   MW: {
     name: "Malawi",
@@ -2972,7 +2972,7 @@ export default {
     currencySymbol: "MK",
     area: 118484,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   MX: {
     name: "Mexico",
@@ -2991,7 +2991,7 @@ export default {
     currencySymbol: "$",
     area: 1964375,
     governmentType: "Federal republic",
-    costline: 9.33,
+    coastline: 9.33,
   },
   MY: {
     name: "Malaysia",
@@ -3010,7 +3010,7 @@ export default {
     currencySymbol: "RM",
     area: 330803,
     governmentType: "Federal constitutional monarchy",
-    costline: 4.675,
+    coastline: 4.675,
   },
   MZ: {
     name: "Mozambique",
@@ -3029,7 +3029,7 @@ export default {
     currencySymbol: "MT",
     area: 801590,
     governmentType: "Republic",
-    costline: 2.47,
+    coastline: 2.47,
   },
   NA: {
     name: "Namibia",
@@ -3048,7 +3048,7 @@ export default {
     currencySymbol: "$",
     area: 825418,
     governmentType: "Presidential republic",
-    costline: 1.572,
+    coastline: 1.572,
   },
   NC: {
     name: "New Caledonia",
@@ -3067,7 +3067,7 @@ export default {
     currencySymbol: "Fr",
     area: 18575,
     governmentType: "Sui generis collectivity",
-    costline: 2.254,
+    coastline: 2.254,
   },
   NE: {
     name: "Niger",
@@ -3086,7 +3086,7 @@ export default {
     currencySymbol: "CFA",
     area: 1267000,
     governmentType: "Semi-presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   NF: {
     name: "Norfolk Island",
@@ -3105,7 +3105,7 @@ export default {
     currencySymbol: "$",
     area: 34,
     governmentType: "Territory of Australia",
-    costline: 32,
+    coastline: 32,
   },
   NG: {
     name: "Nigeria",
@@ -3124,7 +3124,7 @@ export default {
     currencySymbol: "₦",
     area: 923768,
     governmentType: "Federal republic",
-    costline: 853,
+    coastline: 853,
   },
   NI: {
     name: "Nicaragua",
@@ -3143,7 +3143,7 @@ export default {
     currencySymbol: "C$",
     area: 130375,
     governmentType: "Presidential republic",
-    costline: 910,
+    coastline: 910,
   },
   NL: {
     name: "Netherlands",
@@ -3162,7 +3162,7 @@ export default {
     currencySymbol: "€",
     area: 41543,
     governmentType: "Constitutional monarchy",
-    costline: 451,
+    coastline: 451,
   },
   NO: {
     name: "Norway",
@@ -3181,7 +3181,7 @@ export default {
     currencySymbol: "kr",
     area: 323802,
     governmentType: "Parliamentary democracy",
-    costline: 25.148,
+    coastline: 25.148,
   },
   NP: {
     name: "Nepal",
@@ -3200,7 +3200,7 @@ export default {
     currencySymbol: "रू",
     area: 147516,
     governmentType: "Federal democratic republic",
-    costline: 0,
+    coastline: 0,
   },
   NR: {
     name: "Nauru",
@@ -3219,7 +3219,7 @@ export default {
     currencySymbol: "$",
     area: 21,
     governmentType: "Non-partisan democracy",
-    costline: 30,
+    coastline: 30,
   },
   NU: {
     name: "Niue",
@@ -3238,7 +3238,7 @@ export default {
     currencySymbol: "$",
     area: 260,
     governmentType: "Non-partisan democracy",
-    costline: 64,
+    coastline: 64,
   },
   NZ: {
     name: "New Zealand",
@@ -3257,7 +3257,7 @@ export default {
     currencySymbol: "$",
     area: 270467,
     governmentType: "Parliamentary democracy",
-    costline: 15.134,
+    coastline: 15.134,
   },
   OM: {
     name: "Oman",
@@ -3276,7 +3276,7 @@ export default {
     currencySymbol: "ر.ع.",
     area: 309500,
     governmentType: "Absolute monarchy",
-    costline: 2.092,
+    coastline: 2.092,
   },
   PA: {
     name: "Panama",
@@ -3295,7 +3295,7 @@ export default {
     currencySymbol: "B/.",
     area: 75417,
     governmentType: "Presidential republic",
-    costline: 2.49,
+    coastline: 2.49,
   },
   PE: {
     name: "Peru",
@@ -3314,7 +3314,7 @@ export default {
     currencySymbol: "S/.",
     area: 1285220,
     governmentType: "Presidential republic",
-    costline: 2.414,
+    coastline: 2.414,
   },
   PF: {
     name: "French Polynesia",
@@ -3333,7 +3333,7 @@ export default {
     currencySymbol: "Fr",
     area: 4167,
     governmentType: "Overseas collectivity of France",
-    costline: 2.525,
+    coastline: 2.525,
   },
   PG: {
     name: "Papua New Guinea",
@@ -3352,7 +3352,7 @@ export default {
     currencySymbol: "K",
     area: 462840,
     governmentType: "Parliamentary democracy",
-    costline: 5.152,
+    coastline: 5.152,
   },
   PH: {
     name: "Philippines",
@@ -3371,7 +3371,7 @@ export default {
     currencySymbol: "₱",
     area: 300000,
     governmentType: "Presidential republic",
-    costline: 36.289,
+    coastline: 36.289,
   },
   PK: {
     name: "Pakistan",
@@ -3390,7 +3390,7 @@ export default {
     currencySymbol: "₨",
     area: 881912,
     governmentType: "Federal parliamentary republic",
-    costline: 1.046,
+    coastline: 1.046,
   },
   PL: {
     name: "Poland",
@@ -3409,7 +3409,7 @@ export default {
     currencySymbol: "zł",
     area: 312685,
     governmentType: "Parliamentary republic",
-    costline: 440,
+    coastline: 440,
   },
   PM: {
     name: "Saint Pierre and Miquelon",
@@ -3428,7 +3428,7 @@ export default {
     currencySymbol: "€",
     area: 242,
     governmentType: "Parliamentary democracy",
-    costline: null,
+    coastline: null,
   },
   PN: {
     name: "Pitcairn Islands",
@@ -3447,7 +3447,7 @@ export default {
     currencySymbol: "$",
     area: 47,
     governmentType: "Dependent territory of the UK",
-    costline: null,
+    coastline: null,
   },
   PR: {
     name: "Puerto Rico",
@@ -3466,7 +3466,7 @@ export default {
     currencySymbol: "$",
     area: 9104,
     governmentType: "Unincorporated territory of the US",
-    costline: 501,
+    coastline: 501,
   },
   PS: {
     name: "Palestine",
@@ -3485,7 +3485,7 @@ export default {
     currencySymbol: "₪",
     area: 6220,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   PT: {
     name: "Portugal",
@@ -3504,7 +3504,7 @@ export default {
     currencySymbol: "€",
     area: 92090,
     governmentType: "Semi-presidential republic",
-    costline: 1.793,
+    coastline: 1.793,
   },
   PW: {
     name: "Palau",
@@ -3523,7 +3523,7 @@ export default {
     currencySymbol: "$",
     area: 464,
     governmentType: "Constitutional government in free association with the US",
-    costline: 1.519,
+    coastline: 1.519,
   },
   PY: {
     name: "Paraguay",
@@ -3542,7 +3542,7 @@ export default {
     currencySymbol: "₲",
     area: 406752,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   QA: {
     name: "Qatar",
@@ -3561,7 +3561,7 @@ export default {
     currencySymbol: "ر.ق",
     area: 11586,
     governmentType: "Absolute monarchy",
-    costline: 563,
+    coastline: 563,
   },
   RE: {
     name: "Reunion",
@@ -3580,7 +3580,7 @@ export default {
     currencySymbol: "€",
     area: 2517,
     governmentType: "Overseas department of France",
-    costline: 219,
+    coastline: 219,
   },
   RO: {
     name: "Romania",
@@ -3599,7 +3599,7 @@ export default {
     currencySymbol: "lei",
     area: 238397,
     governmentType: "Semi-presidential republic",
-    costline: 225,
+    coastline: 225,
   },
   RS: {
     name: "Serbia",
@@ -3618,7 +3618,7 @@ export default {
     currencySymbol: "дин.",
     area: 88361,
     governmentType: "Parliamentary republic",
-    costline: 199,
+    coastline: 199,
   },
   RU: {
     name: "Russia",
@@ -3638,7 +3638,7 @@ export default {
     currencySymbol: "₽",
     area: 17098242,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   RW: {
     name: "Rwanda",
@@ -3657,7 +3657,7 @@ export default {
     currencySymbol: "RF",
     area: 26338,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   SA: {
     name: "Saudi Arabia",
@@ -3676,7 +3676,7 @@ export default {
     currencySymbol: "ر.س",
     area: 2149690,
     governmentType: "Absolute monarchy",
-    costline: 2.64,
+    coastline: 2.64,
   },
   SB: {
     name: "Solomon Islands",
@@ -3695,7 +3695,7 @@ export default {
     currencySymbol: "$",
     area: 28896,
     governmentType: "Parliamentary democracy",
-    costline: 5.313,
+    coastline: 5.313,
   },
   SC: {
     name: "Seychelles",
@@ -3714,7 +3714,7 @@ export default {
     currencySymbol: "₨",
     area: 455,
     governmentType: "Presidential republic",
-    costline: 491,
+    coastline: 491,
   },
   SD: {
     name: "Sudan",
@@ -3733,7 +3733,7 @@ export default {
     currencySymbol: "ج.س.",
     area: 1861484,
     governmentType: "Federal republic",
-    costline: 853,
+    coastline: 853,
   },
   SE: {
     name: "Sweden",
@@ -3752,7 +3752,7 @@ export default {
     currencySymbol: "kr",
     area: 450295,
     governmentType: "Parliamentary democracy",
-    costline: 3.218,
+    coastline: 3.218,
   },
   SG: {
     name: "Singapore",
@@ -3771,7 +3771,7 @@ export default {
     currencySymbol: "$",
     area: 719,
     governmentType: "Parliamentary republic",
-    costline: 193,
+    coastline: 193,
   },
   SH: {
     name: "Saint Helena",
@@ -3790,7 +3790,7 @@ export default {
     currencySymbol: "£",
     area: 410,
     governmentType: "Overseas territory of the UK",
-    costline: null,
+    coastline: null,
   },
   SI: {
     name: "Slovenia",
@@ -3809,7 +3809,7 @@ export default {
     currencySymbol: "€",
     area: 20273,
     governmentType: "Parliamentary republic",
-    costline: 46.6,
+    coastline: 46.6,
   },
   SJ: {
     name: "Svalbard and Jan Mayen",
@@ -3828,7 +3828,7 @@ export default {
     currencySymbol: "kr",
     area: 62049,
     governmentType: "Part of the Kingdom of Norway",
-    costline: null,
+    coastline: null,
   },
   SK: {
     name: "Slovakia",
@@ -3847,7 +3847,7 @@ export default {
     currencySymbol: "€",
     area: 49037,
     governmentType: "Parliamentary republic",
-    costline: 0,
+    coastline: 0,
   },
   SL: {
     name: "Sierra Leone",
@@ -3866,7 +3866,7 @@ export default {
     currencySymbol: "Le",
     area: 71740,
     governmentType: "Presidential republic",
-    costline: 402,
+    coastline: 402,
   },
   SM: {
     name: "San Marino",
@@ -3885,7 +3885,7 @@ export default {
     currencySymbol: "€",
     area: 61,
     governmentType: "Parliamentary democracy",
-    costline: 0,
+    coastline: 0,
   },
   SN: {
     name: "Senegal",
@@ -3904,7 +3904,7 @@ export default {
     currencySymbol: "CFA",
     area: 196722,
     governmentType: "Semi-presidential republic",
-    costline: 531,
+    coastline: 531,
   },
   SO: {
     name: "Somalia",
@@ -3923,7 +3923,7 @@ export default {
     currencySymbol: "Sh.",
     area: 637657,
     governmentType: "Federal parliamentary republic",
-    costline: 3.333,
+    coastline: 3.333,
   },
   SR: {
     name: "Suriname",
@@ -3942,7 +3942,7 @@ export default {
     currencySymbol: "$",
     area: 163820,
     governmentType: "Presidential republic",
-    costline: 386,
+    coastline: 386,
   },
   SS: {
     name: "South Sudan",
@@ -3961,7 +3961,7 @@ export default {
     currencySymbol: "£",
     area: 644329,
     governmentType: "Federal republic",
-    costline: 0,
+    coastline: 0,
   },
   ST: {
     name: "Sao Tome and Principe",
@@ -3980,7 +3980,7 @@ export default {
     currencySymbol: "Db",
     area: 964,
     governmentType: "Semi-presidential republic",
-    costline: 209,
+    coastline: 209,
   },
   SV: {
     name: "El Salvador",
@@ -3999,7 +3999,7 @@ export default {
     currencySymbol: "$",
     area: 21041,
     governmentType: "Presidential republic",
-    costline: 307,
+    coastline: 307,
   },
   SX: {
     name: "Sint Maarten",
@@ -4018,7 +4018,7 @@ export default {
     currencySymbol: "$",
     area: 34,
     governmentType: "Parliamentary democracy",
-    costline: 0,
+    coastline: 0,
   },
   SY: {
     name: "Syria",
@@ -4037,7 +4037,7 @@ export default {
     currencySymbol: "£",
     area: 185180,
     governmentType: "Presidential republic",
-    costline: 193,
+    coastline: 193,
   },
   SZ: {
     name: "Eswatini",
@@ -4056,7 +4056,7 @@ export default {
     currencySymbol: "L",
     area: 17364,
     governmentType: "Absolute monarchy",
-    costline: 0,
+    coastline: 0,
   },
   TC: {
     name: "Turks and Caicos Islands",
@@ -4075,7 +4075,7 @@ export default {
     currencySymbol: "$",
     area: 948,
     governmentType: "Parliamentary democracy",
-    costline: 389,
+    coastline: 389,
   },
   TD: {
     name: "Chad",
@@ -4094,7 +4094,7 @@ export default {
     currencySymbol: "FCFA",
     area: 1284000,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   TF: {
     name: "French Southern Territories",
@@ -4113,7 +4113,7 @@ export default {
     currencySymbol: "€",
     area: 7829,
     governmentType: "Overseas territory of France",
-    costline: 0,
+    coastline: 0,
   },
   TG: {
     name: "Togo",
@@ -4132,7 +4132,7 @@ export default {
     currencySymbol: "CFA",
     area: 56785,
     governmentType: "Presidential republic",
-    costline: 56,
+    coastline: 56,
   },
   TH: {
     name: "Thailand",
@@ -4151,7 +4151,7 @@ export default {
     currencySymbol: "฿",
     area: 513120,
     governmentType: "Constitutional monarchy",
-    costline: 3.219,
+    coastline: 3.219,
   },
   TJ: {
     name: "Tajikistan",
@@ -4170,7 +4170,7 @@ export default {
     currencySymbol: "ЅМ",
     area: 143100,
     governmentType: "Republic",
-    costline: 0,
+    coastline: 0,
   },
   TK: {
     name: "Tokelau",
@@ -4189,7 +4189,7 @@ export default {
     currencySymbol: "$",
     area: 26,
     governmentType: "Non-partisan democracy",
-    costline: 101,
+    coastline: 101,
   },
   TL: {
     name: "East Timor",
@@ -4208,7 +4208,7 @@ export default {
     currencySymbol: "$",
     area: 14874,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   TM: {
     name: "Turkmenistan",
@@ -4227,7 +4227,7 @@ export default {
     currencySymbol: "T",
     area: 488100,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   TN: {
     name: "Tunisia",
@@ -4246,7 +4246,7 @@ export default {
     currencySymbol: "د.ت",
     area: 163610,
     governmentType: "Republic",
-    costline: 1.148,
+    coastline: 1.148,
   },
   TO: {
     name: "Tonga",
@@ -4265,7 +4265,7 @@ export default {
     currencySymbol: "T$",
     area: 747,
     governmentType: "Constitutional monarchy",
-    costline: 419,
+    coastline: 419,
   },
   TR: {
     name: "Turkey",
@@ -4285,7 +4285,7 @@ export default {
     currencySymbol: "₺",
     area: 783562,
     governmentType: "Presidential republic",
-    costline: 7.2,
+    coastline: 7.2,
   },
   TT: {
     name: "Trinidad and Tobago",
@@ -4304,7 +4304,7 @@ export default {
     currencySymbol: "$",
     area: 5130,
     governmentType: "Parliamentary democracy",
-    costline: 362,
+    coastline: 362,
   },
   TV: {
     name: "Tuvalu",
@@ -4323,7 +4323,7 @@ export default {
     currencySymbol: "$",
     area: 26,
     governmentType: "Non-partisan democracy",
-    costline: 24,
+    coastline: 24,
   },
   TW: {
     name: "Taiwan",
@@ -4342,7 +4342,7 @@ export default {
     currencySymbol: "NT$",
     area: 36193,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   TZ: {
     name: "Tanzania",
@@ -4361,7 +4361,7 @@ export default {
     currencySymbol: "Sh",
     area: 945087,
     governmentType: "Semi-presidential republic",
-    costline: 1.424,
+    coastline: 1.424,
   },
   UA: {
     name: "Ukraine",
@@ -4380,7 +4380,7 @@ export default {
     currencySymbol: "₴",
     area: 603500,
     governmentType: "Semi-presidential republic",
-    costline: 2.782,
+    coastline: 2.782,
   },
   UG: {
     name: "Uganda",
@@ -4399,7 +4399,7 @@ export default {
     currencySymbol: "Sh",
     area: 241038,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   UM: {
     name: "U.S. Minor Outlying Islands",
@@ -4418,7 +4418,7 @@ export default {
     currencySymbol: "$",
     area: 0,
     governmentType: "Unincorporated and unorganized territory of the US",
-    costline: null,
+    coastline: null,
   },
   US: {
     name: "United States",
@@ -4437,7 +4437,7 @@ export default {
     currencySymbol: "$",
     area: 9372610,
     governmentType: "Federal republic",
-    costline: 19.924,
+    coastline: 19.924,
   },
   UY: {
     name: "Uruguay",
@@ -4456,7 +4456,7 @@ export default {
     currencySymbol: "$",
     area: 181034,
     governmentType: "Presidential republic",
-    costline: 660,
+    coastline: 660,
   },
   UZ: {
     name: "Uzbekistan",
@@ -4475,7 +4475,7 @@ export default {
     currencySymbol: "сўм",
     area: 448978,
     governmentType: "Republic",
-    costline: 0,
+    coastline: 0,
   },
   VA: {
     name: "Vatican City",
@@ -4494,7 +4494,7 @@ export default {
     currencySymbol: "€",
     area: 0.44,
     governmentType: "Absolute monarchy",
-    costline: null,
+    coastline: null,
   },
   VC: {
     name: "Saint Vincent and the Grenadines",
@@ -4513,7 +4513,7 @@ export default {
     currencySymbol: "$",
     area: 389,
     governmentType: "Parliamentary democracy",
-    costline: 84,
+    coastline: 84,
   },
   VE: {
     name: "Venezuela",
@@ -4532,7 +4532,7 @@ export default {
     currencySymbol: "Bs.S.",
     area: 912050,
     governmentType: "Federal republic",
-    costline: 2.8,
+    coastline: 2.8,
   },
   VG: {
     name: "British Virgin Islands",
@@ -4551,7 +4551,7 @@ export default {
     currencySymbol: "$",
     area: 151,
     governmentType: "Parliamentary democracy",
-    costline: null,
+    coastline: null,
   },
   VI: {
     name: "U.S. Virgin Islands",
@@ -4570,7 +4570,7 @@ export default {
     currencySymbol: "$",
     area: 347,
     governmentType: "Unincorporated territory of the US",
-    costline: null,
+    coastline: null,
   },
   VN: {
     name: "Vietnam",
@@ -4589,7 +4589,7 @@ export default {
     currencySymbol: "₫",
     area: 331210,
     governmentType: "Single-party socialist republic",
-    costline: 3.444,
+    coastline: 3.444,
   },
   VU: {
     name: "Vanuatu",
@@ -4608,7 +4608,7 @@ export default {
     currencySymbol: "VT",
     area: 12189,
     governmentType: "Parliamentary republic",
-    costline: 2.528,
+    coastline: 2.528,
   },
   WF: {
     name: "Wallis and Futuna",
@@ -4627,7 +4627,7 @@ export default {
     currencySymbol: "Fr",
     area: 142,
     governmentType: "Overseas territory of France",
-    costline: 129,
+    coastline: 129,
   },
   WS: {
     name: "Samoa",
@@ -4646,7 +4646,7 @@ export default {
     currencySymbol: "T",
     area: 2831,
     governmentType: "Parliamentary democracy",
-    costline: 403,
+    coastline: 403,
   },
   XK: {
     name: "Kosovo",
@@ -4665,7 +4665,7 @@ export default {
     currencySymbol: "€",
     area: 10887,
     governmentType: "Semi-presidential republic",
-    costline: null,
+    coastline: null,
   },
   YE: {
     name: "Yemen",
@@ -4684,7 +4684,7 @@ export default {
     currencySymbol: "﷼",
     area: 527968,
     governmentType: "Presidential republic",
-    costline: 1.906,
+    coastline: 1.906,
   },
   YT: {
     name: "Mayotte",
@@ -4703,7 +4703,7 @@ export default {
     currencySymbol: "€",
     area: 374,
     governmentType: "Overseas department of France",
-    costline: null,
+    coastline: null,
   },
   ZA: {
     name: "South Africa",
@@ -4722,7 +4722,7 @@ export default {
     currencySymbol: "R",
     area: 1221037,
     governmentType: "Parliamentary republic",
-    costline: 2.798,
+    coastline: 2.798,
   },
   ZM: {
     name: "Zambia",
@@ -4741,7 +4741,7 @@ export default {
     currencySymbol: "ZK",
     area: 752618,
     governmentType: "Presidential republic",
-    costline: 0,
+    coastline: 0,
   },
   ZW: {
     name: "Zimbabwe",
@@ -4760,6 +4760,6 @@ export default {
     currencySymbol: "Z$",
     area: 390757,
     governmentType: "Dominant-party presidential republic",
-    costline: 0,
+    coastline: 0,
   },
 } satisfies TCountryInfo;

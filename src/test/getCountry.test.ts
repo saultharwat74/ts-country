@@ -57,6 +57,6 @@ test("getCountry: Retrieves country information", ({ expect }) => {
     currencySymbol: "$",
     area: 9372610,
     governmentType: "Federal republic",
-    costline: 19.924,
+    coastline: 19.924,
   });
 });

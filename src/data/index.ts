@@ -7,7 +7,7 @@ export { default as geonameId } from "./geonameId";
 export { default as emojis } from "./emojis";
 export { default as fipsCodes } from "./fipsCodes";
 export { default as isoNumericCodes } from "./isoNumericCodes";
-export { default as countryCostlines } from "./countryCostlines";
+export { default as countryCoastlines } from "./countryCoastlines";
 export { default as governmentTypes } from "./governmentTypes";
 export { default as countryAreas } from "./countryAreas";
 export { default as currencySymbols } from "./currencySymbols";
