@@ -32,6 +32,7 @@ pnpm add ts-country
 | `getCountry`  | Retrieves detailed information about a specific country.                  |
 | `getCurrency` | Provides currency codes for a given country code.                          |
 | `getLanguage` | Retrieves detailed language information for a specific country code. |
+| `getCapital` | Retrieves the capital cities of various countries. |
 
 
 `getCountry`
@@ -41,26 +42,27 @@ pnpm add ts-country
 ```typescript
 import { getCountry } from "ts-country";
 
-const countryInfo = getCountry();
-
-// Accessing capital of the United States
-const capital = countryInfo.US.capital; // Returns "Washington, D.C."
+const countryInfo = getCountry() // Returns {
+//   capital: "Washington, D.C.",
+//   currency: { USD: "USD  -> United States Dollar" },
+//   continent: "North America",
+//   languages: { en: { name: "English", native: "English" } },
+//   name: "United States",
+//   native: "United States",
+//   phone: [1],
+//   continents: ["North America"],
+//   emoji: "🇺🇸",
+//   timezone: "America/New_York",
+//   gmtoffset: "UTC-05:00",
+//   geonameId: 6252001
+//   fipsCode: "US",
+//   isoNumeric: "840",
+//   currencySymbol: "$",,
+//   area: 9372610,
+//   governmentType: Federal republic,
+//   coastline: 19.924
+// }
 ```
-
-Returned Values
-
-- `capital`: Washington, D.C.
-- `currency`: { USD: "USD" }
-- `continent`: North America
-- `languages`: { en: { name: "English", native: "English" } }
-- `name`: United States
-- `native`: United States
-- `phone`: [1]
-- `continents`: [North America]
-- `emoji`: 🇺🇸
-- `timezone`: America/New_York
-- `gmtoffset`: UTC-05:00
-- `geonameId`: 6252001
   
 `getCurrency`
 
@@ -72,12 +74,8 @@ import { getCurrency } from "ts-country";
 const currencyCodes = getCurrency("US");
 
 // Accessing USD currency code
-const usdCode = currencyCodes.USD; // Returns "United States Dollar (USD)"
+const usdCode = currencyCodes.USD; // Returns "USD  -> United States Dollar"
 ```
-
-Returned Values
-
-- `USD`: United States Dollar (USD)
 
 `getLanguage`
 
@@ -92,11 +90,18 @@ const languageInfo = getLanguage("US");
 const englishInfo = languageInfo.en; // Returns { name: "English", native: "English" }
 ```
 
-#### Returned Values
+`getCapital`
 
-- `name`: English
-- `native`: English
+> Retrieves the capital cities of various countries.
 
+```typescript
+import { getCapital } from "ts-country";
+
+
+const capitals = getCapital();
+// Accessing capital of the United States
+const usCapital = capitals.US.capital; // Returns "Washington, D.C."
+```
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE)

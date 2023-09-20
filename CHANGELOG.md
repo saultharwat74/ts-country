@@ -1,5 +1,15 @@
 # ts-country
 
+## 0.0.10
+
+🚀 **Updated Country Data** 🌐
+
+- Added FIPS & ISO Codes
+- Included Currency Symbols
+- Area & Government & Coastline Info Added
+
+🚧 Regions Feature in Progress
+
 ## 0.0.9
 
 ### Patch Changes
