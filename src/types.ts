@@ -2,15 +2,21 @@ import {
   continents,
   currencies,
   languages,
-  countryCode,
+  countryCodes,
   countries,
   geonameId,
   emojis,
+  fipsCodes,
+  isoNumericCodes,
+  countryCostlines,
+  governmentTypes,
+  countryAreas,
+  currencySymbols,
 } from "./data";
 import getCurrency from "./getCurrency";
 import getLanguage from "./getLanguage";
 
-export interface ICountry {
+export interface ICountry<T extends TCountryCodes> {
   /**
    * The capital city of the country.
    */
@@ -55,7 +61,7 @@ export interface ICountry {
   /**
    * The emoji representation of the country's flag.
    */
-  emoji: CountryFlagEmoji;
+  emoji: CountryFlagEmoji<T>;
 
   /**
    * The timezone of the country.
@@ -70,7 +76,37 @@ export interface ICountry {
   /**
    * The unique Geoname ID associated with the country.
    */
-  geonameId: TGeonamedId;
+  geonameId: TGeonameId<T>;
+
+  /**
+   * The FIPS (Federal Information Processing Standards) code(s) associated with the country.
+   */
+  fipsCode: TFipsCodes<T>;
+
+  /**
+   * The ISO 3166-1 numeric code(s) associated with the country.
+   * */
+  isoNumeric: TIsoNumericCodes<T>;
+
+  /**
+   * The currency symbol of the country.
+   * */
+  currencySymbol: TCurrencySymbols<T>;
+
+  /**
+   * The area of the country.
+   * */
+  area: TCountryAreas<T>;
+
+  /**
+   * The government type of the country.
+   * */
+  governmentType: TCountryGovernmentTypes<T>;
+
+  /**
+   * The costline of the country.
+   * */
+  costline: TCountryCostlines<T>;
 }
 
 export interface ILanguage {
@@ -102,7 +138,7 @@ export type TContinentCode = keyof typeof continents;
 /**
  * Represents a code identifying a country.
  */
-export type TCountryCode = keyof typeof countryCode;
+export type TCountryCodes = keyof typeof countryCodes;
 
 /**
  * Represents a code identifying a language.
@@ -116,10 +152,33 @@ export type TCurrencyCode = keyof typeof currencies;
 export type TCountries = typeof countries;
 
 /**
+ * Represents a code identifying a costline.
+ */
+export type TCountryCostlines<T extends keyof typeof countryCostlines> =
+  (typeof countryCostlines)[T];
+
+/**
+ * Represents a code identifying a government type.
+ */
+export type TCountryGovernmentTypes<T extends keyof typeof governmentTypes> =
+  (typeof governmentTypes)[T];
+
+/**
+ * Represents a code identifying a country area.
+ * */
+export type TCountryAreas<T extends keyof typeof countryAreas> =
+  (typeof countryAreas)[T];
+
+/**
+ * Represents a code identifying a currency symbol
+ */
+export type TCurrencySymbols<T extends keyof typeof currencySymbols> =
+  (typeof currencySymbols)[T];
+/**
  * Represents an object where keys are country codes and values are objects conforming to the ICountry interface.
  */
 export type TCountryInfo = {
-  [key in TCountryCode]: ICountry;
+  [key in TCountryCodes]: ICountry<key>;
 };
 
 /**
@@ -131,29 +190,45 @@ export type ValueOf<T> = T[keyof T];
 /**
  * Represents the type of Geoname IDs used in the application.
  */
-export type TGeonamedId = ValueOf<typeof geonameId>;
+export type TGeonameId<T extends keyof typeof geonameId> =
+  (typeof geonameId)[T];
+/**
+ * Represents the type of FIPS codes used in the application.
+ * For example, if T is 'US', TFipsCode will be 'US'
+ * */
+export type TFipsCodes<T extends keyof typeof fipsCodes> =
+  (typeof fipsCodes)[T];
 
+/**
+ * Represents the type of ISO numeric codes used in the application.
+ * For example, if T is 'US', TIsoNumeric will be '840'
+ * */
+
+export type TIsoNumericCodes<T extends keyof typeof isoNumericCodes> =
+  (typeof isoNumericCodes)[T];
 /**
  * Represents the emoji strings for country flags.
  */
-export type CountryFlagEmoji = ValueOf<typeof emojis>;
+export type CountryFlagEmoji<T extends keyof typeof emojis> =
+  (typeof emojis)[T];
 
 /**
  * Represents the return type of the getCurrency function, where T is a valid country code.
  * For example, if T is 'US', TCurrencyCodeReturnType<'US'> will be the return type of getCurrency('US').
  */
-export type TCurrencyCodeReturnType<T extends TCountryCode> = ReturnType<
+export type TCurrencyCodeReturnType<T extends TCountryCodes> = ReturnType<
   typeof getCurrency<T>
 >;
 
-export type TLanguageCodeReturnType<T extends TCountryCode> = ReturnType<
+export type TLanguageCodeReturnType<T extends TCountryCodes> = ReturnType<
   typeof getLanguage<T>
 >;
+
 /**
  * Represents a mapping of country codes to detailed country information.
  */
 export type TCountryInfoReturn = {
-  [key in TCountryCode]: Omit<ICountry, "currency" | "languages"> & {
+  [key in TCountryCodes]: Omit<ICountry<key>, "currency" | "languages"> & {
     currency: TCurrencyCodeReturnType<key>;
     languages: TLanguageCodeReturnType<key>;
   };
@@ -187,3 +262,9 @@ export type CurrencyMapping<T extends keyof typeof countries> = {
  */
 export type CurrencyCode<T extends keyof typeof countries> =
   (typeof countries)[T]["currency"][number];
+
+export {
+  TAfghanistanRegions,
+  TAndorraRegions,
+  TUaeRegions,
+} from "./data/regions";
