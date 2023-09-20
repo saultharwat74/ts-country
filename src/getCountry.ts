@@ -2,9 +2,8 @@ import { countries } from "./data";
 import getCurrency from "./getCurrency";
 import getLanguage from "./getLanguage";
 import {
-  TCountryCode,
+  TCountryCodes,
   TCountryInfoReturn,
-  TCurrencyCodeReturnType,
 } from "./types";
 
 /**
@@ -19,17 +18,17 @@ export default function getCountry(): TCountryInfoReturn {
   // Iterate through each country code
   for (const countryCode in countries) {
     // Get country information for the current country code
-    const country = countries[countryCode as TCountryCode];
+    const country = countries[countryCode as TCountryCodes];
     // Get currency codes for the current country code
-    const currencyCodes = getCurrency(countryCode as TCountryCode);
+    const currency = getCurrency(countryCode as TCountryCodes);
     // Get laguages for the current country code
-    const languages = getLanguage(countryCode as TCountryCode);
-    
-    countryInfo[countryCode as TCountryCode] = {
+    const languages = getLanguage(countryCode as TCountryCodes);
+
+    countryInfo[countryCode as TCountryCodes] = {
       ...country,
-      currency: currencyCodes as TCurrencyCodeReturnType<TCountryCode>,
+      currency,
       languages,
-    };
+    } as any;
   }
 
   return countryInfo;
