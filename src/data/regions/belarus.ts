@@ -1,0 +1,9 @@
+export default {
+  BR: "Brest voblast",
+  HM: "Gorod Minsk",
+  HO: "Homiel voblast",
+  HR: "Hrodna voblast",
+  MA: "Mahilyow voblast",
+  MI: "Minsk voblast",
+  VI: "Vitsebsk voblast",
+} as const;
