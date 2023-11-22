@@ -1,0 +1,16 @@
+export default {
+  A: "Anatolikí Makedonía kai Thráki",
+  I: "Attikḯ",
+  G: "Dytikí Elláda",
+  C: "Dytikí Makedonía",
+  F: "Ionía Nísia",
+  B: "Kentrikí Makedonía",
+  M: "Krítí",
+  L: "Notío Aigaío",
+  J: "Peloponnísos",
+  H: "Stereá Elláda",
+  E: "Thessalía",
+  K: "Voreί Aigaό",
+  D: "Ípeiros",
+  "69": "Ágion Óros",
+} as const;

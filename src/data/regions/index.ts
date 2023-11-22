@@ -65,6 +65,26 @@ import egyptRegions from "./egypt";
 import westernSaharaRegions from "./westernSahara";
 import eritreaRegions from "./eritrea";
 import spainRegions from "./spain";
+import ethiopiaRegions from "./ethiopia";
+import finlandRegions from "./finland";
+import fijiRegions from "./fiji";
+import falklandIslandsRegions from "./falklandIslands";
+import micronesiaRegions from "./micronesia";
+import franceRegions from "./france";
+import gabonRegions from "./gabon";
+import unitedKingdomRegions from "./unitedKingdom";
+import grenadaRegions from "./grenada";
+import georgiaRegions from "./georgia";
+import frenchGuianaRegions from "./frenchGuiana";
+import guernseyRegions from "./guernsey";
+import ghanaRegions from "./ghana";
+import gibraltarRegions from "./gibraltar";
+import greenlandRegions from "./greenland";
+import gambiaRegions from "./gambia";
+import guineaRegions from "./guinea";
+import guadeloupeRegions from "./guadeloupe";
+import equatorialGuineaRegions from "./equatorialGuinea";
+import greeceRegions from "./greece";
 export default {
   AD: andorraRegions,
   AE: uaeRegions,
@@ -133,6 +153,27 @@ export default {
   EH: westernSaharaRegions,
   ER: eritreaRegions,
   ES: spainRegions,
+  ET: ethiopiaRegions,
+  FI: finlandRegions,
+  FJ: fijiRegions,
+  FK: falklandIslandsRegions,
+  FM: micronesiaRegions,
+  FO: "",
+  FR: franceRegions,
+  GA: gabonRegions,
+  GB: unitedKingdomRegions,
+  GD: grenadaRegions,
+  GE: georgiaRegions,
+  GF: frenchGuianaRegions,
+  GG: guernseyRegions,
+  GH: ghanaRegions,
+  GI: gibraltarRegions,
+  GL: greenlandRegions,
+  GM: gambiaRegions,
+  GN: guineaRegions,
+  GP: guadeloupeRegions,
+  GQ: equatorialGuineaRegions,
+  GR: greeceRegions,
 };
 export {
   andorraRegions,
@@ -201,74 +242,25 @@ export {
   egyptRegions,
   westernSaharaRegions,
   eritreaRegions,
-  spainRegions
+  spainRegions,
+  ethiopiaRegions,
+  finlandRegions,
+  fijiRegions,
+  falklandIslandsRegions,
+  micronesiaRegions,
+  franceRegions,
+  gabonRegions,
+  unitedKingdomRegions,
+  grenadaRegions,
+  georgiaRegions,
+  frenchGuianaRegions,
+  guernseyRegions,
+  ghanaRegions,
+  gibraltarRegions,
+  greenlandRegions,
+  gambiaRegions,
+  guineaRegions,
+  guadeloupeRegions,
+  equatorialGuineaRegions,
+  greeceRegions
 };
-export type TAndorraRegions = typeof andorraRegions;
-export type TUaeRegions = typeof uaeRegions;
-export type TAfghanistanRegions = typeof afghanistanRegions;
-export type TAntiguaAndBarbudaRegions = typeof antiguaAndBarbudaRegions;
-export type TAnguillaRegion = typeof anguillaRegions;
-export type TAlbaniaRegions = typeof albaniaRegions;
-export type TArmeniaRegions = typeof armeniaRegions;
-export type TAngolaRegions = typeof angolaRegions;
-export type TAntarcticaRegions = typeof antarcticaRegions;
-export type TArgentinaRegions = typeof argentinaRegions;
-export type TAmericanSamoaRegions = typeof americanSamoaRegions;
-export type TAustriaRegions = typeof austriaRegions;
-export type TAustraliaRegions = typeof australiaRegions;
-export type TArubaRegions = typeof arubaRegions;
-export type TAlandRegions = typeof alandRegions;
-export type TAzerbaijanRegions = typeof azerbaijanRegions;
-export type TBosniaAndHerzegovinaRegions = typeof bosniaAndHerzegovinaRegions;
-export type TBarbadosRegions = typeof barbadosRegions;
-export type TBangladeshRegions = typeof bangladeshRegions;
-export type TBelgiumRegions = typeof belgiumRegions;
-export type TBurkinaFasoRegions = typeof burkinaFasoRegions;
-export type TBulgariaRegions = typeof bulgariaRegions;
-export type TBahrainRegions = typeof bahrainRegions;
-export type TBurundiRegions = typeof burundiRegions;
-export type TBeninRegions = typeof beninRegions;
-export type TSaintBarthelemyRegions = typeof saintBarthelemyRegions;
-export type TBermudaRegions = typeof bermudaRegions;
-export type TBruneiRegions = typeof bruneiRegions;
-export type TBoliviaRegions = typeof boliviaRegions;
-export type TBonaireRegions = typeof bonaireRegions;
-export type TBrazilRegions = typeof brazilRegions;
-export type TBahamasRegions = typeof bahamasRegions;
-export type TBouvetIslandRegions = typeof bouvetIslandRegions;
-export type TBotswanaRegions = typeof botswanaRegions;
-export type TBelarusRegions = typeof belarusRegions;
-export type TBelizeRegions = typeof belizeRegions;
-export type TCanadaRegions = typeof canadaRegions;
-export type TCocosKeelingIslandsRegions = typeof cocosKeelingIslandsRegions;
-export type TDemocraticRepublicOfTheCongoRegions =
-  typeof democraticRepublicOfTheCongoRegions;
-export type TCentralAfricanRepublicRegions =
-  typeof centralAfricanRepublicRegions;
-export type TRepublicOfTheCongoRegions = typeof republicOfTheCongoRegions;
-export type TSwitzerlandRegions = typeof switzerlandRegions;
-export type TIvoryCoastRegions = typeof ivoryCoastRegions;
-export type TCookIslandsRegions = typeof cookIslandsRegions;
-export type TChileRegions = typeof chileRegions;
-export type TCameroonRegions = typeof cameroonRegions;
-export type TChinaRegions = typeof chinaRegions;
-export type TColombiaRegions = typeof colombiaRegions;
-export type TCostaRicaRegions = typeof costaRicaRegions;
-export type TCubaRegions = typeof cubaRegions;
-export type TCapeVerdeRegions = typeof capeVerdeRegions;
-export type TCuracaoRegions = typeof curacaoRegions;
-export type TChristmasIslandRegions = typeof christmasIslandRegions;
-export type TCyprusRegions = typeof cyprusRegions;
-export type TCzechRepublicRegions = typeof czechRepublicRegions;
-export type TGermanyRegions = typeof germanyRegions;
-export type TDjiboutiRegions = typeof djiboutiRegions;
-export type TDenmarkRegions = typeof denmarkRegions;
-export type TDominicaRegions = typeof dominicaRegions;
-export type TDominicanRepublicRegions = typeof dominicanRepublicRegions;
-export type TAlgeriaRegions = typeof algeriaRegions;
-export type TEcuadorRegions = typeof ecuadorRegions;
-export type TEstoniaRegions = typeof estoniaRegions;
-export type TEgyptRegions = typeof egyptRegions;
-export type TWesternSaharaRegions = typeof westernSaharaRegions;
-export type TEritreaRegions = typeof eritreaRegions;
-export type TSpainRegions = typeof spainRegions;

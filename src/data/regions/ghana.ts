@@ -1,0 +1,18 @@
+export default {
+  Ahafo: "Ahafo",
+  AH: "Ashanti",
+  Bano: "Bono",
+  BE: "Bono East",
+  CP: "Central",
+  EP: "Eastern",
+  AA: "Greater Accra",
+  NP: "Northern",
+  NE: "North East",
+  OT: "Oti",
+  SV: "Savannah",
+  UE: "Upper East",
+  UW: "Upper West",
+  TV: "Volta",
+  WP: "Western",
+  WN: "Western North",
+} as const;
